@@ -17,7 +17,7 @@
 			<li><button class="w3-bar-item w3-button" onclick='document.getElementById("ifr").src="insertform.php";' type="button">Add</button></li>
 			<li><button class="w3-bar-item w3-button" onclick="location.href='http://www.google.com'" type="button">Delete</button></li>
 			<li><button class="w3-bar-item w3-button" onclick="location.href='http://www.example.com'" type="button">Update</button></li>
-			<li><button class="w3-bar-item w3-button" onclick="location.href='http://www.example.com'" type="button">View Records</button></li>
+			<li><button class="w3-bar-item w3-button" onclick='document.getElementById("ifr").src="display.php";' type="button">View Records</button></li>
 			<!--<li><button class="w3-bar-item w3-button" onclick="location.href='http://www.example.com'" type="button">Loans</button></li> -->
 		</ul>
 	</div> 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 28, 2018 at 05:14 PM
+-- Generation Time: Sep 02, 2018 at 05:02 PM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.0.30
 
@@ -56,7 +56,10 @@ INSERT INTO `client` (`client_id`, `client_name`, `client_zip`, `client_age`, `c
 (10, 'Mycka Carino', '9000', 20, 'Zamboanga City'),
 (11, 'Mycka Carino', '9000', 20, 'Zamboanga City'),
 (12, 'Selena Gomez', '9000', 20, 'Tagum City'),
-(13, 'Mycka', '8000', 20, 'Davao');
+(13, 'Mycka', '8000', 20, 'Davao'),
+(14, 'Mycka', '8000', 20, 'Zamboanga'),
+(15, 'Mycka Yatots', '8000', 21, 'Davao City'),
+(16, 'Mycka Yatots', '8000', 20, 'Davao City');
 
 -- --------------------------------------------------------
 
@@ -85,7 +88,10 @@ INSERT INTO `invoices` (`invoice_id`, `client_id`, `invoice_date`, `invoice_amt`
 (6, 10, '2018-09-07', 10000, 'Housing Loan'),
 (7, 11, '2018-09-07', 10000, 'Housing Loan'),
 (8, 12, '2018-08-30', 5000, 'Car Loan'),
-(9, 13, '2018-09-14', 1000, 'Coffe Loan');
+(9, 13, '2018-09-14', 1000, 'Coffe Loan'),
+(10, 14, '2018-09-19', 10000, 'Coffe Loan'),
+(11, 15, '2018-09-18', 20000, 'Coffe Loan'),
+(12, 16, '2018-09-22', 20000, 'CarLoan');
 
 --
 -- Indexes for dumped tables
@@ -113,13 +119,13 @@ ALTER TABLE `invoices`
 -- AUTO_INCREMENT for table `client`
 --
 ALTER TABLE `client`
-  MODIFY `client_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `client_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `invoices`
 --
 ALTER TABLE `invoices`
-  MODIFY `invoice_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `invoice_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- Constraints for dumped tables

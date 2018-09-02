@@ -43,9 +43,9 @@
 </style>
 </head>
     <body>
-    <div id="btn_div">
+    <!-- <div id="btn_div">
     <button class="btn_design" onclick='document.getElementById("ifr").src="insertform.php";' type="button">Back</button>
-    </div>
+    </div> -->
 
             <?php
             require_once("connection.php");
