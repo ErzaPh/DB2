@@ -26,7 +26,7 @@
 
 	if (mysqli_query($connection, $ssql)) {
 		// echo "New record created successfully";
-		exec('php index.php');
+		include 'display.php';
 	} else {
 		echo "Error: " . $sql . "<br>" . mysqli_error($connection);
 	}
